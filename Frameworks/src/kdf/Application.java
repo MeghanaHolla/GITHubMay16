@@ -14,6 +14,7 @@ public class Application {
 		String[][] data = GenericMethods.getData("D:\\SelApr17\\TestData.xlsx", "Sheet2");
 		Methods mtd = new Methods();
 		for(int i = 1;i<data.length;i++) {
+			//Making changes after R1.1
 			switch(data[i][3]) {
 			case "openBrowser":
 				mtd.openBrowser();
